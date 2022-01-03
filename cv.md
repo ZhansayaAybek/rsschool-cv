@@ -1,4 +1,4 @@
-# **[rsschool-cv](https://ZhansyaAybek.github.io/rsschool-cv/)**
+# **[rsschool-cv](https://zhansayaaybek.github.io/rsschool-cv/)**
 # **Zhansaya Markabaeva**
 ## **Contacts**
 - **Location**: Tashkent, Uzbekistan
