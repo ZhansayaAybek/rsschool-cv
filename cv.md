@@ -1,29 +1,29 @@
 # Zhansaya Markabaeva
-# Contacts
+## Contacts
 - **Location**: Tashkent, Uzbekistan
 - **Telegram**: [Zhansaya](https://t.me/zhansaya_markabaeva)
 - **GitHub**: [ZhansayaAybek](https://github.com/ZhansayaAybek)
-- **Linkedin**: [Zhansaya Markabaeva](https://www.linkedin.com/in/zhansaya-markabaeva-22ab16220/)
 - **E-mail**: kalimbetovazansaa@gmail.com
-# About Me
-I am 17 year-old fist year student. I have a clear, logical mind with a practical approach to problem-solving and a drive to see things through to completion. I am eager to learn, I enjoy overcoming challenges, and I have a genuine interest in **Web Development**.I possess excellent analytical and communications skills and a dedicated approach to work. 
+## About Me
+I am 17 year-old fist year student. I am eager to learn, enjoy overcoming challenges, and I have a genuine interest in Web Development. My career goal is to gain a role which allows me to further my expertise and take on increased responsibility at an IT company.
    
-     Key strengths
-   - Hardworking
-   - Enthusiastic
-   - Love of learning
-   - Responsible
-   - Sociable
+## Key strengths
+- Hardworking
+- Enthusiastic
+- Love of learning
+- Responsible
+- Sociable
 
-# Skills
+## Skills
 - Git
 - HTML
 - CSS
 - C++
 - JavaScript
-# Code Example
-## From Codewars
+## Code Example
+### From Codewars
 Square Every Digit:
+
 ```
 function squareDigits(num)
 {
@@ -36,16 +36,14 @@ function squareDigits(num)
   return parseInt(newNum.join(''));
   return 0;
 }
-
 ```
-
-# Education
+## Education
 TUIT
 - Economics and management in the sphere of ICT
 
 RS School
 - JS/Frontend. Stage 0
-# Languages
+## Languages
 - Kazakh (Native)
-- Russian (C2)
+- Russian (Fluent)
 - English (B2)
