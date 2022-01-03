@@ -247,13 +247,13 @@ body{
   .divider_grey {
     display: block;
     block-size: 2px;
-    background-color:var(--light-gray);
+    background-color:var(--main-color);
     margin: 20px 0px;
   }
 /* Code Style End */
 /* Footer Style Start */
     .footer{
-        background-color: var(--light-gray);
+        background-color: var(--main-color);
         padding: 10px 0;
         text-align: center;
     }
@@ -261,25 +261,6 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .footer__block:nth-child(2){
-        margin-inline-end: 10px;
-    }
-    .footer__social{
-        background-image: url(../images/github.svg);
-        background-position: center left;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: block;
-        inline-size: 20px;
-        block-size: 20px;
-        margin-inline-end: 10px;
-    }
-    .footer__social_yt{
-        background-image: url(../images/youtube.svg);
-        margin-inline-end: 0;
-        inline-size: 40px;
-        background-size: contain;
     }
     .footer__text{
         display: flex;
@@ -358,11 +339,7 @@ body{
         .footer__inner{
             flex-direction: column;
         }
-        .footer__block:nth-child(2){
-            margin-inline-end: 0;
-            margin-block-start: 10px;
-            margin-block-end: 10px;
-        }
+    }
         .footer__social{
             margin-inline-end: 0;
         }
