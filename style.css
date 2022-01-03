@@ -374,4 +374,11 @@ body{
             margin-block-end: 20px;
         }
     }
+    .nav-list {
+    list-style: none;
+    }
+    .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    }
 /* Media Queries End */
