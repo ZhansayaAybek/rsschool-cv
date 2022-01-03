@@ -267,9 +267,9 @@ body{
 /* Code Style Start */
 .section code {
     position: relative;
-    inset-inline-start: -200px;
+    inset-inline-start: -180px;
   }
-  .divider_grey {
+  .divider_yellow {
     display: block;
     block-size: 2px;
     background-color:var(--main-color);
