@@ -151,6 +151,8 @@ body{
     }
     .contact__image_location{
         background-image: url(assets/svg/location.svg);
+	inline-size: 30px;
+        block-size: 30px;    
     }
     .contact__image_telegram{
         background-image: url(assets/svg/telegram.svg);
