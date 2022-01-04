@@ -65,7 +65,15 @@ body{
 .section{
     padding-block-end: 50px;
 }
-.date{
+.section-university{
+    background-color: var(--main-color);
+    color: var(--text-color);
+    border-radius: 4px;
+    display: inline-block;
+    font-family: 'ralewaymedium';
+    padding: 2px 10px;
+}
+.section-school{
     background-color: var(--main-color);
     color: var(--text-color);
     border-radius: 4px;
@@ -136,12 +144,12 @@ body{
     }
 /* Header Style End */
 /* Contact Style Start */
-    .contact__block{
+    .contacts__block{
         display: flex;
         align-items: center;
         margin-block-end: 15px;
     }
-    .contact__image{
+    .contacts__image{
         background-position: center left;
         background-repeat: no-repeat;
         background-size: cover;
@@ -149,23 +157,28 @@ body{
         block-size: 20px;
         margin-inline-end: 10px;
     }
-    .contact__image_location{
+    .contacts__image_location{
         background-image: url(assets/svg/location.svg);
 	inline-size: 30px;
-        block-size: 30px;    
+        block-size: 30px;
     }
-    .contact__image_telegram{
+    .contacts__image_github{
+        background-image: url(assets/svg/github.svg);
+	inline-size: 25px;
+        block-size: 25px;    
+    }
+    .contacts__image_telegram{
         background-image: url(assets/svg/telegram.svg);
     }
-    .contact__image_email{
+    .contacts__image_email{
         background-image: url(assets/svg/email.svg);
     }
-    .contact__link{
+    .contacts__link{
         color: var(--text-color);
         text-decoration: none;
         transition: all .4s linear;
     }
-    .contact__link:hover{
+    .contacts__link:hover{
         color: var(--main-color);
         text-decoration: underline;
     }
@@ -235,21 +248,35 @@ body{
 }
 /* Languages Style End */
 /* Key Style Start */
-  .key__list {
-    margin-inline-start: 60px;
-    padding: 0;
-    padding-inline-start: 20px;
-  }
+   .key__item{
+        padding: 0 0 10px 15px;
+        position: relative;
+    }
+    .key__item:last-child{
+        padding: 0 0 0 15px;
+    }
+    .key__item::before{
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 0;
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: var(--main-color);
+        border-radius: 50%;
+        margin-right: 10px;
+    }
 /* Key Style End */
 /* Code Style Start */
-.section code {
+   .section code {
     position: relative;
-    inset-inline-start: -200px;
+    inset-inline-start: -180px;
   }
-  .divider_grey {
+  .divider_yellow {
     display: block;
     block-size: 2px;
-    background-color:var(--light-gray);
+    background-color:var(--main-color);
     margin: 20px 0px;
   }
 /* Code Style End */
@@ -266,22 +293,6 @@ body{
     }
     .footer__block:nth-child(2){
         margin-inline-end: 10px;
-    }
-    .footer__social{
-        background-image: url(../images/github.svg);
-        background-position: center left;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: block;
-        inline-size: 20px;
-        block-size: 20px;
-        margin-inline-end: 10px;
-    }
-    .footer__social_yt{
-        background-image: url(../images/youtube.svg);
-        margin-inline-end: 0;
-        inline-size: 40px;
-        background-size: contain;
     }
     .footer__text{
         display: flex;
@@ -365,9 +376,6 @@ body{
             margin-block-start: 10px;
             margin-block-end: 10px;
         }
-        .footer__social{
-            margin-inline-end: 0;
-        }
     }
     @media (max-inline-size: 380px){
         .education__block {
@@ -375,3 +383,7 @@ body{
         }
     }
 /* Media Queries End */
+    .nav-link {
+   padding: 0 20px;
+   line-height: 50px;
+   }
