@@ -20,7 +20,7 @@ I am 17 year-old fist year student. I am eager to learn, enjoy overcoming challe
 - HTML
 - CSS
 - C++
-- JavaScript
+- JS basics
 ## **Code Example**
 ### From Codewars
 ```
