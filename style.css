@@ -280,6 +280,18 @@ body{
     margin: 20px 0px;
   }
 /* Code Style End */
+/* Project Style Start */
+   .section project {
+    position: relative;
+    inset-inline-start: -180px;
+  }
+  .divider_yellow {
+    display: block;
+    block-size: 2px;
+    background-color:var(--main-color);
+    margin: 20px 0px;
+  }
+/* Project Style End */
 /* Footer Style Start */
     .footer{
         background-color: var(--light-gray);
