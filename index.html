@@ -13,7 +13,7 @@
 		<header class="header">
 			<div class="column">
 				<figure class="header__avatar">
-					<img src="assets/img/photo.img.JPG" class="header__picture" alt="Header avatar">
+					<img src="assets/img/photo.img.jpg" class="header__picture" alt="Header avatar">
 				</figure>
 			</div>
 			<div class="column column_main column_header">
@@ -141,37 +141,39 @@
 					<ul class="key__list">
                                                 <li class="key__item">Hardworking</li>
 						<li class="key__item">Responsible</li>
-						<li class="key__item">Love of learning</li>
                                                 <li class="key__item">Enthusiastic</li>
                                                 <li class="key__item">Sociable</li>
 					</ul>
 				</section>
-                    <section class="section" id="code">
-                         <h2 class="section-title">Code example</h2>
-                         <div class="divider_yellow"></div>
-                       <pre>
+                     <section class="section" id="code">
+                    <h2 class="section-title">Code example</h2>
+                    <div class="divider_yellow"></div>
+                    <pre>
                         <code>
-                            function squareDigits(num)
-                            {
-                               let number = '' + num;
-                               let newNum = new Array();
-                               number.split('').map(n =>
-			       {
-                                  newNum.push(n**2);
-                               })
+                          function squareDigits(num)
+                           {
+                             let number = '' + num;
+                             let newNum = new Array();
+                             number.split('').map(n => {
+                             newNum.push(n**2);
+                            })
   
-                               return parseInt(newNum.join(''));
-                               return 0;
-                             }
+                           return parseInt(newNum.join(''));
+                           return 0;
                         </code>
                      </pre>
-		   </section>
-	     </div>
-	</main>
-              <footer class="footer">
+		 </section>
+	<section class="section" id="project">
+        <h2 class="section-title">Project</h2>
+        <div class="divider_yellow"></div>
+	<a href="https://ZhansayaAybek.github.io/rsschool-cv/" class="project__link">My CV</a>
+	</section>
+		 </div>
+		</main>
+        <footer class="footer">
 			<div class="footer__inner">
 				<div class="footer__block">
-					<div class="footer__text">Created in <img src="assets/svg/rsschool.svg" class="footer__image" alt=""> <a href="https://rs.school/js/" class="footer__link">preschool course</a>in 2022</div>
+					<div class="footer__text">Created in <a href="https://rs.school/js/" class="footer__link"><img src="assets/svg/rsschool.svg" class="footer__image" alt=""></a>preschool course in 2022</div>
 				</div>				
 			</div>
 		</footer>
