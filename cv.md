@@ -6,12 +6,11 @@
 - **GitHub**: [ZhansayaAybek](https://github.com/ZhansayaAybek)
 - **E-mail**: kalimbetovazansaa@gmail.com
 ## **About Me**
-I am 17 year-old fist year student. I am eager to learn, enjoy overcoming challenges, and I have a genuine interest in Web Development. My career goal is to gain a role which allows me to further my expertise and take on increased responsibility at an IT company.
+I am 18 year-old fist year student. I am eager to learn, enjoy overcoming challenges, and I have a genuine interest in Web Development. My career goal is to gain a role which allows me to further my expertise and take on increased responsibility at an IT company.
    
 ## **Key strengths**
 - Hardworking
 - Enthusiastic
-- Love of learning
 - Responsible
 - Sociable
 
@@ -36,6 +35,9 @@ function squareDigits(num)
   return 0;
 }
 ```
+## **Project** 
+<a href="https://ZhansayaAybek.github.io/rsschool-cv/">My CV</a> 
+
 ## **Education**
 TUIT
 - Economics and management in the sphere of ICT
