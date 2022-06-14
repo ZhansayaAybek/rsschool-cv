@@ -159,13 +159,13 @@ body{
     }
     .contacts__image_location{
         background-image: url(assets/svg/location.svg);
-	inline-size: 30px;
-        block-size: 30px;
+	inline-size: 60px;
+        block-size: 60px;
     }
     .contacts__image_github{
         background-image: url(assets/svg/github.svg);
-	inline-size: 25px;
-        block-size: 25px;    
+	inline-size: 40px;
+        block-size: 40px;    
     }
     .contacts__image_telegram{
         background-image: url(assets/svg/telegram.svg);
@@ -285,7 +285,16 @@ body{
     position: relative;
     inset-inline-start: -180px;
   }
-  .divider_yellow {
+   .project__link{
+        color: var(--text-color);
+        text-decoration: none;
+        transition: all .4s linear;
+    }
+   .project__link:hover{
+        color: var(--main-color);
+        text-decoration: underline;
+    }
+   .divider_yellow {
     display: block;
     block-size: 2px;
     background-color:var(--main-color);
@@ -317,6 +326,10 @@ body{
     .footer__link{
         color: var(--text-color);
         margin-inline-end: 10px;
+    }
+    .footer_link:hover{
+        color: var(--main-color);
+        text-decoration: underline;
     }
 /* Footer Style End */
 /* Media Queries Start */
