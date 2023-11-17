@@ -35,7 +35,8 @@ I am 19 year-old junior. I am eager to learn, enjoy overcoming challenges, and I
    return parseInt(newNum.join(''));
    return 0;
 ```
-## **Project** 
+## **Experience** 
+Only completed project, that I have:
 <a href="https://ZhansayaAybek.github.io/rsschool-cv/">My CV</a> 
 
 ## **Education**
