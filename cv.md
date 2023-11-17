@@ -19,6 +19,7 @@ I am 19 year-old junior. I am eager to learn, enjoy overcoming challenges, and I
 - CSS
 - C++
 - JS basics
+- IoT
 
 ## **Code Example**
 ### From Codewars
