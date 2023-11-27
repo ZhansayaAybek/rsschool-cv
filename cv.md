@@ -34,6 +34,7 @@ I am 19 year-old junior. I am eager to learn, enjoy overcoming challenges, and I
   
    return parseInt(newNum.join(''));
    return 0;
+   }
 ```
 ## **Experience** 
 Only completed project, that I have:
